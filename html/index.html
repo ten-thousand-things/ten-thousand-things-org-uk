@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ten Thousand Things</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../javascripts/jquery.min.js"></script>
+    <script src="../javascripts/index.js"></script>
+  </head>
+  <body>
+    <br>
+    <section class="spaced header">
+      <div class="container">
+        <div class="row">
+          <div class="column one-half">
+            <a href="../images/stars.jpeg">
+              <img id="logo" src="../images/starsv1.jpeg" alt="">
+              <div id="overlay"></div>
+            </a>
+          </div>
+          <div class="column one-half">
+            <br>
+            <h2>ten thousand things</h2>
+            <p>coding the commons</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="spaced">
+      <div class="container">
+        <hr>
+        <div class="row">
+          <div class="one-half column">
+            <ul class="inline">
+              <li><a class="internal" id="home">home</a></li>
+              <li><a class="internal" id="projects">projects</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+    </section>
+
+    <section class="spaced home active">
+      <div class="container">
+        <div class="row">
+          <div class="column one-half">
+            <p>
+            <strong>email: </strong>
+            <a href="mailto:frontdesk@tenthousandthings.org.uk">frontdesk@tenthousandthings.org.uk</a>
+            </p>
+
+            <p>
+            <strong>twitter: </strong>
+            <a href="https://twitter.com/tenthousandthings">@tenthousandthings</a>
+            </p>
+
+            <p>
+            <strong>github: </strong>
+            <a href="https://github.com/ten-thousand-things">@ten-thousand-things</a>
+            </p>
+
+            <p>
+            <strong>gpg fingerprint: </strong>
+            5F6B 2AEE D98D 68CB C8B0  5D43 C7A8 D068 5833 58CB <a href="pub.key">(download)</a> / 
+            <a href="pub.key.txt">(plain-text)</a>
+            </p>
+
+            <br>
+            <p>
+            forging free and open source software in collaboration with <a href="https://blockades.org">blockades</a>,
+            <a href="https://dyne.org">dyne think [&do] tank</a> and
+            <a href="https://protozoa.nz/">protozoa</a>
+            </p>
+          </div>
+          <div class="column one-half">
+            <p><i>ten thousand things</i> applies a dialectical methodology combining social research and networked collaboration with software development</p>
+            <p>we work with communities directly to build software that expands the commons</p>
+            <p>we produce tools that emphasise interdependency alongside individual autonomy</p>
+            <p>we host workshops on: data privacy, password and private key management, online identity protection, social secret sharing, and the use of distributed p2p technologies</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects hidden">
+      <div class="container">
+        <h4>mmt / blockades / protozoa collaboration</h4>
+        <div class="row">
+          <div class="two columns"><i>upcoming</i></div>
+          <div class="one column">2019</div>
+          <div class="two columns"><a href="">better multisig wallet</a></div>
+          <div class="six columns">a group-oriented multisignature bitcoin / faircoin wallet</div>
+          <div class="one column"><br></div>
+        </div>
+
+        <div class="row">
+          <div class="two columns"><strong>current</strong></div>
+          <div class="one column">2018</div>
+          <div class="two columns"><a href="https://github.com/blockades/dark-crystal">dark crystal</a></div>
+          <div class="six columns">distributed social password / private key backup application built on scuttlebutt</div>
+          <div class="one column"><a href="https://github.com/blockades/dark-crystal"><img src="../images/git-branch-ico_60x100.png" alt="github" class="icon"></a></div>
+        </div>
+
+        <div class="row">
+          <div class="two columns"><strong>current</strong></div>
+          <div class="one column">2019</div>
+          <div class="two columns"><a href="https://github.com/kgibb8/scuttle-invite">scuttle-invite</a></div>
+          <div class="six columns">modular extension to the scuttlebutt ecosystem implementing polymorphic invite and reply logic</div>
+          <div class="one column"><a href="https://github.com/kgibb8/scuttle-invite"><img src="../images/git-branch-ico_60x100.png" alt="github" class="icon"></a></div>
+        </div>
+
+        <div class="row">
+          <div class="two columns"><strong>current</strong></div>
+          <div class="one column">2018</div>
+          <div class="two columns"><a href="https://github.com/blockades/mmt-metadata">mmt-metadata</a></div>
+          <div class="six columns">integration of electrum bitcoin wallet's json rpc with scuttlebutt to scaffold a socially oriented wallet</div>
+          <div class="one column"><a href="https://github.com/blockades/mmt-metadata"><img src="../images/git-branch-ico_60x100.png" alt="github" class="icon"></a></div>
+        </div>
+
+        <div class="row">
+          <div class="two columns">live</div>
+          <div class="one column">2018</div>
+          <div class="two columns"><a href="truename.html">truename</a></div>
+          <div class="six columns">a simple <code>index.html</code> utilising shamir's secrets protocol, built with react and pre-compiled with <a href="https://github.com/dominictarr/indexhtmlify">indexhtmlify</a></div>
+          <div class="one column"><a href="https://github.com/kgibb8/truename-index"><img src="../images/git-branch-ico_60x100.png" alt="github" class="icon"></a></div>
+        </div>
+
+        <div class="row">
+          <div class="two columns">live</div>
+          <div class="one column">2017</div>
+          <div class="two columns"><a href="https://blockades-mmt.herokuapp.com">mmt-core</a></div>
+          <div class="six columns">a cqrs event-driven 'blockchain-like' double entry accounting system built on ruby-on-rails / postgresql / sidekiq / redis stack</div>
+          <div class="one column"><a href="https://github.com/blockades/mmt"><img src="../images/git-branch-ico_60x100.png" alt="github" class="icon"></a></div>
+        </div>
+
+        <hr>
+
+        <h4>offsite digital</h4>
+        <div class="row">
+          <div class="two columns">live</div>
+          <div class="one column">2017</div>
+          <div class="two columns"><a href="https://pauljking.offsitegroup.net">paul j. king</a></div>
+          <div class="six columns">custom product specification application for <a href="https://offsitegroup.net">offsite digital </a> graphical design</div>
+          <div class="one column">private</div>
+          <hr>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <hr>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="offset-by-one-half column one-half">
+            <p class="small tight">All materials are free to share Creative Commons [BY-NC-SA 3.0].</p>
+            <p class="small tight">Ten Thousand Things is the trading name of Ten Thousand Things Limited,  registered in England and Wales as a Limited Company: #10960794</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <hr>
+      </div>
+    </section>
+  </body>
+</html>
