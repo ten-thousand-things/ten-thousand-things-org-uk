@@ -15,6 +15,10 @@ html, body {
   text-align: right;
 }
 
+.center {
+  text-align: center;
+}
+
 a {
   cursor: pointer;
 }

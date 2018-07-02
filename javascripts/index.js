@@ -1,5 +1,6 @@
 $(function () {
-  var pages = ['home', 'projects', 'software']
+  // var pages = $('.internal').map(function (ele) { ele.attr('id') })
+  var pages = ['home', 'projects', 'events']
   var pageIds = pages.map(function (p) { return '#' + p })
 
   $(pageIds.join(', ')).on('click', function (e) {
