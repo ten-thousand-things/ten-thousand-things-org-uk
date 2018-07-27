@@ -11,199 +11,101 @@
     <script src="../javascripts/index.js"></script>
   </head>
   <body>
-    <br>
-    <section class="spaced header">
+    <nav>
       <div class="container">
         <div class="row">
-          <div class="column one-half">
-            <a href="../images/stars.jpeg">
-              <img id="logo" src="../images/starsv1.jpeg" alt="">
-              <div id="overlay"></div>
-            </a>
-          </div>
-          <div class="column one-half">
-            <br>
-            <h2>ten thousand things</h2>
-            <p>coding the commons</p>
-          </div>
+          <h1>Ten Thousand Things</h1>
+        </div>
+      </div>
+    </nav>
+
+    <section id="banner">
+      <div class="container">
+        <div class="centered-content">
+          <h3 class="white">Coding the Commons</h3>
         </div>
       </div>
     </section>
 
-    <section class="spaced">
-      <div class="container">
-        <hr>
-        <div class="row">
-          <div class="one-half column">
-            <ul class="inline">
-              <li><a class="internal" id="home">home</a></li>
-              <li><a class="internal" id="projects">projects</a></li>
-              <li><a class="internal" id="events">events</a></li>
-            </ul>
-          </div>
-        </div>
-        <hr>
-      </div>
-    </section>
-
-    <section class="spaced home active">
+    <section class="center">
       <div class="container">
         <div class="row">
-          <div class="column one-half">
-            <p>
-            <strong>email: </strong>
-            <a href="mailto:frontdesk@tenthousandthings.org.uk">frontdesk@tenthousandthings.org.uk</a>
-            </p>
-
-            <p>
-            <strong>twitter: </strong>
-            <a href="https://twitter.com/tenthousandthings">@tenthousandthings</a>
-            </p>
-
-            <p>
-            <strong>github: </strong>
-            <a href="https://github.com/ten-thousand-things">@ten-thousand-things</a>
-            </p>
-
-            <p>
-            <strong>gpg fingerprint: </strong>
-            5F6B 2AEE D98D 68CB C8B0  5D43 C7A8 D068 5833 58CB <a href="key.pem">(download)</a> / 
-            <a href="key.txt">(plain-text)</a>
-            </p>
-
-            <br>
-            <p>
-            forging free and open source software in collaboration with <a href="https://blockades.org">blockades</a>,
-            <a href="https://dyne.org">dyne think [&do] tank</a> and
-            <a href="https://protozoa.nz/">protozoa</a>
-            </p>
+          <div class="one-third column">
+            <img src="../images/elephant-icon.jpg" class="medium" alt="work">
+            <h2>Our work</h2>
+            <p>Ten Thousand Things is a software development group that loves writing code for charities, SMEs, research organisations and open source communities. We pride ourselves on working closely with partners to design and build tools that empower people.</p>
           </div>
-          <div class="column one-half">
-            <p><i>ten thousand things</i> applies a dialectical methodology combining social research and networked collaboration with software development</p>
-            <p>we work with communities experimenting with community finance and practicing data sovereignty to build software that expands the commons</p></p>
-            <p>we produce tools that emphasise interdependency and individual autonomy</p>
-            <p>we host workshops on: data privacy, password and private key management, online identity protection, social secret sharing, and the use of distributed p2p technologies</p>
+          <div class="one-third column">
+            <img src="../images/handshake-icon.png" class="medium" alt="work">
+            <h2>Our values</h2>
+            <p>We emphasise data sovereignty, consent and accountability as design principles. These principles serve as a platform to encourage all of us to relate to the modern web, data creation and its propagation on our own terms.</p>
           </div>
+          <div class="one-third column">
+            <img src="../images/beaker-icon.png" class="medium" alt="work">
+            <h2>Our research</h2>
+            <p>By using emerging distributed technologies, our current line of research focuses on common pool resource management and distribution. We want to discover what kind of technologies can empower people and expand the commons economy.</p>
         </div>
       </div>
     </section>
 
-    <section class="projects hidden">
+    <section id="workshop" class="slider">
       <div class="container">
-        <h4>mmt / blockades / protozoa collaboration</h4>
-        <div class="row">
-          <div class="two columns"><i>upcoming</i></div>
-          <div class="one column">2019</div>
-          <div class="two columns"><a href="">better multisig wallet</a></div>
-          <div class="six columns">a group-oriented multisignature bitcoin / faircoin wallet</div>
-          <div class="one column"><br></div>
-        </div>
-
-        <div class="row">
-          <div class="two columns"><strong>current</strong></div>
-          <div class="one column">2018</div>
-          <div class="two columns"><a href="https://github.com/blockades/dark-crystal">dark crystal</a></div>
-          <div class="six columns">distributed social password / private key backup application built on scuttlebutt</div>
-          <div class="one column"><a href="https://github.com/blockades/dark-crystal"><img src="../images/git-branch-ico_60x100.png" alt="github" class="icon"></a></div>
-        </div>
-
-        <div class="row">
-          <div class="two columns"><strong>current</strong></div>
-          <div class="one column">2019</div>
-          <div class="two columns"><a href="https://github.com/kgibb8/scuttle-invite">scuttle-invite</a></div>
-          <div class="six columns">modular extension to the scuttlebutt ecosystem implementing polymorphic invite and reply logic</div>
-          <div class="one column"><a href="https://github.com/kgibb8/scuttle-invite"><img src="../images/git-branch-ico_60x100.png" alt="github" class="icon"></a></div>
-        </div>
-
-        <div class="row">
-          <div class="two columns"><strong>current</strong></div>
-          <div class="one column">2018</div>
-          <div class="two columns"><a href="https://github.com/blockades/mmt-metadata">mmt-metadata</a></div>
-          <div class="six columns">integration of electrum bitcoin wallet's json rpc with scuttlebutt to scaffold a socially oriented wallet</div>
-          <div class="one column"><a href="https://github.com/blockades/mmt-metadata"><img src="../images/git-branch-ico_60x100.png" alt="github" class="icon"></a></div>
-        </div>
-
-        <div class="row">
-          <div class="two columns">live</div>
-          <div class="one column">2018</div>
-          <div class="two columns"><a href="truename.html">truename</a></div>
-          <div class="six columns">a simple <code>index.html</code> utilising shamir's secrets protocol, built with react and pre-compiled with <a href="https://github.com/dominictarr/indexhtmlify">indexhtmlify</a></div>
-          <div class="one column"><a href="https://github.com/kgibb8/truename-index"><img src="../images/git-branch-ico_60x100.png" alt="github" class="icon"></a></div>
-        </div>
-
-        <div class="row">
-          <div class="two columns">live</div>
-          <div class="one column">2017</div>
-          <div class="two columns"><a href="https://blockades-mmt.herokuapp.com">mmt-core</a></div>
-          <div class="six columns">a cqrs event-driven 'blockchain-like' double entry accounting system built on ruby-on-rails / postgresql / sidekiq / redis stack</div>
-          <div class="one column"><a href="https://github.com/blockades/mmt"><img src="../images/git-branch-ico_60x100.png" alt="github" class="icon"></a></div>
-        </div>
-
-        <hr>
-
-        <h4>offsite digital</h4>
-        <div class="row">
-          <div class="two columns">live</div>
-          <div class="one column">2017</div>
-          <div class="two columns"><a href="https://pauljking.offsitegroup.net">paul j. king</a></div>
-          <div class="six columns">custom product specification application for <a href="https://offsitegroup.net">offsite digital </a> graphical design</div>
-          <div class="one column">private</div>
-          <hr>
-        </div>
-      </div>
-    </section>
-
-    <section class="events hidden">
-      <div class="container">
-        <div class="row">
-          <h2 class="center">capture the flag: summer solstice - 27/07/2018</h2>
-          <div class="twelve columns">
-            <hr>
-            <a href="https://www.facebook.com/events/403052180207804/">
-              <img src="../images/CtF-summer2018.jpg" alt="Capture the Flag Summer 2018" style="width: 100%;"/>
-            </a>
-            <hr>
-          </div>
-        </div>
-        <div class="row">
-          <div class="one-half column">
-            <p>
-            <strong>Location: </strong>
-            <i>TBC</i>
-            </p>
-            <p>
-            "transport, housing, pollution, poverty and crime today top the list of concerns for londoners and the peoples' of cities world-wide and while politicians of all stripes endlessly promise solutions, the daily reality just keeps getting worse. green spaces are disappearing, public services are deteriorating and inequalities are widening. those who can afford to, retreat behind gated areas bunker-like, fearful; or through gentrification, redevelop the social effects of poverty out sight - and thus out of mind. this 'social amnesia' is matched by an increasing withdrawal into private life generally and a profound alienation from our human commonality as market values of rivalry and competition seep into every part of society. paradoxically, in cities where so many people live side-by-side, we feel isolated, separated and alone...
-            </p>
-            <p>
-            occasionally though, a sense of the social freedom possible in the city breaks through the public order. in spontaneous encounters and celebrations - in revelry and rebellion; in coming together face to face to discuss, to organise, and in attempting to directly meet our collective needs, an other city life presents itself as possible: a city life of creativity, solidarity, and diversity. a city expressed not as an efficient market machine but as a living ensemble of human relations in balance with its' natural surroundings. it is this social side of the ecological city that is left out of the dominant resource management or environmental planning approach; it is this social side of the ecological city that for present society is revolutionary...
-            </p>
-          </div>
-          <div class="one-half column">
-            <p>
-            to act for the ecology of a city then, is to go beyond simply recycling papers and bottles or cutting car-use, to exploring and transforming the ongoing relationships and interactions between individuals, the social and the natural worlds; our hopes for community and the wider economic, political and institutional context. this sense of interconnection is intrinsic to an radical ecological approach. it suggests that dealing with the environmental crisis generally, and the effects of cities in particular, requires not only personal lifestyle changes but a radical remaking of social life itself."
-            </p>
-            <p>excerpt from <i>rts: ecology and the social city</i>, From the spoof newspaper 'maybe'; mayday 2000</p>
-            <br>
-            <div class="links right">
-              <a href="https://viewer.scuttlebot.io/%WGROLW1NrOmuSDSXo8MTX2S+owT2xu80klGvq9ZX440=.sha256"><img src="../images/hermes.png" alt="scuttlebutt" class="icon" title="Find us on Scuttlebutt"></a>
-              <a href="https://www.facebook.com/CaptureTheFlagLdn/"><img src="../images/facebook.png" alt="facebok" class="icon" title="Find us on Facebook"></a>
-            </div>
-            <br>
-            <br>
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/RUD8M5a-ZXY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            <br>
-          </div>
+        <div class="centered-content">
+          <h4 class="white">We run workshops</h4>
         </div>
       </div>
     </section>
 
     <section>
       <div class="container">
-        <hr>
+        <h2>Projects</h2>
+        <div class="row">
+          <div class="one-half column">
+            <a href="https://github.com/blockades/scuttle-dark-crystal">
+              <h3>Dark Crystal</h3>
+            </a>
+          </div>
+          <div class="one-half column">
+            Dark Crystal is a protocol and prototype application making use of Shamir's secrets algorithm to build a distributed trust-based social password / private key backup mechanism. Currently being implemented as a module to bolt onto the emerging <a href="https://scuttlebutt.nz">scuttlebutt</a> ecosystem.
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="one-half column">
+            An open-source contribution to the <a href="https://scuttlebutt.nz">Scuttlebutt community</a>, Scuttle Invite is a module which provides an easy to use API to easily implement invite/response logic on any scuttlebutt application.
+          </div>
+          <div class="one-half column">
+            <a href="https://github.com/kgibb8/scuttle-invite">
+              <h3>Scuttle-Invite</h3>
+            </a>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="one-half column">
+            <a href="https://github.com/kgibb8/truename-index">
+              <h3>True Name</h3>
+            </a>
+          </div>
+          <div class="one-half column">
+            A simple <code>index.html</code> utilising shamir's secrets algorithm for splitting up a secret. Built with React and compiled with <a href="https://github.com/dominictarr/indexhtmlify">indexhtmlify</a> to produce a serverless low barrier-to-entry tool for easy secret sharing.
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="one-half column">
+            A CQRS / event-driven 'blockchain-like' double entry accounting system built on ruby-on-rails / postgresql / sidekiq / redis stack.
+          </div>
+          <div class="one-half column">
+            <a href="https://github.com/blockades/mmt">
+              <h3>MMT</h3>
+            </a>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="footer">
+    <footer>
       <div class="container">
         <div class="row">
           <div class="offset-by-one-half column one-half">
@@ -212,12 +114,192 @@
           </div>
         </div>
       </div>
-    </section>
+    </footer>
 
-    <section>
-      <div class="container">
-        <hr>
-      </div>
-    </section>
+    <!-- <section> -->
+    <!--   <div class="container"> -->
+    <!--     <hr> -->
+    <!--   </div> -->
+    <!-- </section> -->
+    <!-- this is the end -->
+
+    <!--         <1!-- <ul class="inline"> --1> -->
+    <!--         <1!--   <li><a class="internal" id="home">home</a></li> --1> -->
+    <!--         <1!--   <li><a class="internal" id="projects">projects</a></li> --1> -->
+    <!--         <1!--   <li><a class="internal" id="events">events</a></li> --1> -->
+    <!--         <1!-- </ul> --1> -->
+    <!-- <section class="spaced home active"> -->
+    <!--   <div class="container"> -->
+    <!--     <div class="row"> -->
+    <!--       <div class="column one-half"> -->
+    <!--         <p> -->
+    <!--         <strong>email: </strong> -->
+    <!--         <a href="mailto:frontdesk@tenthousandthings.org.uk">frontdesk@tenthousandthings.org.uk</a> -->
+    <!--         </p> -->
+
+    <!--         <p> -->
+    <!--         <strong>twitter: </strong> -->
+    <!--         <a href="https://twitter.com/tenthousandthings">@tenthousandthings</a> -->
+    <!--         </p> -->
+
+    <!--         <p> -->
+    <!--         <strong>github: </strong> -->
+    <!--         <a href="https://github.com/ten-thousand-things">@ten-thousand-things</a> -->
+    <!--         </p> -->
+
+    <!--         <p> -->
+    <!--         <strong>gpg fingerprint: </strong> -->
+    <!--         5F6B 2AEE D98D 68CB C8B0  5D43 C7A8 D068 5833 58CB <a href="key.pem">(download)</a> / --> 
+    <!--         <a href="key.txt">(plain-text)</a> -->
+    <!--         </p> -->
+
+    <!--         <br> -->
+    <!--         <p> -->
+    <!--         forging free and open source software in collaboration with <a href="https://blockades.org">blockades</a>, -->
+    <!--         <a href="https://dyne.org">dyne think [&do] tank</a> and -->
+    <!--         <a href="https://protozoa.nz/">protozoa</a> -->
+    <!--         </p> -->
+    <!--       </div> -->
+    <!--       <div class="column one-half"> -->
+    <!--         <p><i>ten thousand things</i> applies a dialectical methodology combining social research and networked collaboration with software development</p> -->
+    <!--         <p>we work with communities experimenting with community finance and practicing data sovereignty to build software that expands the commons</p></p> -->
+    <!--         <p>we produce tools that emphasise interdependency and individual autonomy</p> -->
+    <!--         <p>we host workshops on: data privacy, password and private key management, online identity protection, social secret sharing, and the use of distributed p2p technologies</p> -->
+    <!--       </div> -->
+    <!--     </div> -->
+    <!--   </div> -->
+    <!-- </section> -->
+
+    <!-- <section class="projects hidden"> -->
+    <!--   <div class="container"> -->
+    <!--     <h4>mmt / blockades / protozoa collaboration</h4> -->
+    <!--     <div class="row"> -->
+    <!--       <div class="two columns"><i>upcoming</i></div> -->
+    <!--       <div class="one column">2019</div> -->
+    <!--       <div class="two columns"><a href="">better multisig wallet</a></div> -->
+    <!--       <div class="six columns">a group-oriented multisignature bitcoin / faircoin wallet</div> -->
+    <!--       <div class="one column"><br></div> -->
+    <!--     </div> -->
+
+    <!--     <div class="row"> -->
+    <!--       <div class="two columns"><strong>current</strong></div> -->
+    <!--       <div class="one column">2018</div> -->
+    <!--       <div class="two columns"><a href="https://github.com/blockades/dark-crystal">dark crystal</a></div> -->
+    <!--       <div class="six columns">distributed social password / private key backup application built on scuttlebutt</div> -->
+    <!--       <div class="one column"><a href="https://github.com/blockades/dark-crystal"><img src="../images/git-branch-ico_60x100.png" alt="github" class="icon"></a></div> -->
+    <!--     </div> -->
+
+    <!--     <div class="row"> -->
+    <!--       <div class="two columns"><strong>current</strong></div> -->
+    <!--       <div class="one column">2019</div> -->
+    <!--       <div class="two columns"><a href="https://github.com/kgibb8/scuttle-invite">scuttle-invite</a></div> -->
+    <!--       <div class="six columns">modular extension to the scuttlebutt ecosystem implementing polymorphic invite and reply logic</div> -->
+    <!--       <div class="one column"><a href="https://github.com/kgibb8/scuttle-invite"><img src="../images/git-branch-ico_60x100.png" alt="github" class="icon"></a></div> -->
+    <!--     </div> -->
+
+    <!--     <div class="row"> -->
+    <!--       <div class="two columns"><strong>current</strong></div> -->
+    <!--       <div class="one column">2018</div> -->
+    <!--       <div class="two columns"><a href="https://github.com/blockades/mmt-metadata">mmt-metadata</a></div> -->
+    <!--       <div class="six columns">integration of electrum bitcoin wallet's json rpc with scuttlebutt to scaffold a socially oriented wallet</div> -->
+    <!--       <div class="one column"><a href="https://github.com/blockades/mmt-metadata"><img src="../images/git-branch-ico_60x100.png" alt="github" class="icon"></a></div> -->
+    <!--     </div> -->
+
+    <!--     <div class="row"> -->
+    <!--       <div class="two columns">live</div> -->
+    <!--       <div class="one column">2018</div> -->
+    <!--       <div class="two columns"><a href="truename.html">truename</a></div> -->
+    <!--       <div class="six columns">a simple <code>index.html</code> utilising shamir's secrets protocol, built with react and pre-compiled with <a href="https://github.com/dominictarr/indexhtmlify">indexhtmlify</a></div> -->
+    <!--       <div class="one column"><a href="https://github.com/kgibb8/truename-index"><img src="../images/git-branch-ico_60x100.png" alt="github" class="icon"></a></div> -->
+    <!--     </div> -->
+
+    <!--     <div class="row"> -->
+    <!--       <div class="two columns">live</div> -->
+    <!--       <div class="one column">2017</div> -->
+    <!--       <div class="two columns"><a href="https://blockades-mmt.herokuapp.com">mmt-core</a></div> -->
+    <!--       <div class="six columns">a cqrs event-driven 'blockchain-like' double entry accounting system built on ruby-on-rails / postgresql / sidekiq / redis stack</div> -->
+    <!--       <div class="one column"><a href="https://github.com/blockades/mmt"><img src="../images/git-branch-ico_60x100.png" alt="github" class="icon"></a></div> -->
+    <!--     </div> -->
+
+    <!--     <hr> -->
+
+    <!--     <h4>offsite digital</h4> -->
+    <!--     <div class="row"> -->
+    <!--       <div class="two columns">live</div> -->
+    <!--       <div class="one column">2017</div> -->
+    <!--       <div class="two columns"><a href="https://pauljking.offsitegroup.net">paul j. king</a></div> -->
+    <!--       <div class="six columns">custom product specification application for <a href="https://offsitegroup.net">offsite digital </a> graphical design</div> -->
+    <!--       <div class="one column">private</div> -->
+    <!--       <hr> -->
+    <!--     </div> -->
+    <!--   </div> -->
+    <!-- </section> -->
+
+    <!-- <section class="events hidden"> -->
+    <!--   <div class="container"> -->
+    <!--     <div class="row"> -->
+    <!--       <h2 class="center">capture the flag: summer solstice - 27/07/2018</h2> -->
+    <!--       <div class="twelve columns"> -->
+    <!--         <hr> -->
+    <!--         <a href="https://www.facebook.com/events/403052180207804/"> -->
+    <!--           <img src="../images/CtF-summer2018.jpg" alt="Capture the Flag Summer 2018" style="width: 100%;"/> -->
+    <!--         </a> -->
+    <!--         <hr> -->
+    <!--       </div> -->
+    <!--     </div> -->
+    <!--     <div class="row"> -->
+    <!--       <div class="one-half column"> -->
+    <!--         <p> -->
+    <!--         <strong>Location: </strong> -->
+    <!--         <i>TBC</i> -->
+    <!--         </p> -->
+    <!--         <p> -->
+    <!--         "transport, housing, pollution, poverty and crime today top the list of concerns for londoners and the peoples' of cities world-wide and while politicians of all stripes endlessly promise solutions, the daily reality just keeps getting worse. green spaces are disappearing, public services are deteriorating and inequalities are widening. those who can afford to, retreat behind gated areas bunker-like, fearful; or through gentrification, redevelop the social effects of poverty out sight - and thus out of mind. this 'social amnesia' is matched by an increasing withdrawal into private life generally and a profound alienation from our human commonality as market values of rivalry and competition seep into every part of society. paradoxically, in cities where so many people live side-by-side, we feel isolated, separated and alone... -->
+    <!--         </p> -->
+    <!--         <p> -->
+    <!--         occasionally though, a sense of the social freedom possible in the city breaks through the public order. in spontaneous encounters and celebrations - in revelry and rebellion; in coming together face to face to discuss, to organise, and in attempting to directly meet our collective needs, an other city life presents itself as possible: a city life of creativity, solidarity, and diversity. a city expressed not as an efficient market machine but as a living ensemble of human relations in balance with its' natural surroundings. it is this social side of the ecological city that is left out of the dominant resource management or environmental planning approach; it is this social side of the ecological city that for present society is revolutionary... -->
+    <!--         </p> -->
+    <!--       </div> -->
+    <!--       <div class="one-half column"> -->
+    <!--         <p> -->
+    <!--         to act for the ecology of a city then, is to go beyond simply recycling papers and bottles or cutting car-use, to exploring and transforming the ongoing relationships and interactions between individuals, the social and the natural worlds; our hopes for community and the wider economic, political and institutional context. this sense of interconnection is intrinsic to an radical ecological approach. it suggests that dealing with the environmental crisis generally, and the effects of cities in particular, requires not only personal lifestyle changes but a radical remaking of social life itself." -->
+    <!--         </p> -->
+    <!--         <p>excerpt from <i>rts: ecology and the social city</i>, From the spoof newspaper 'maybe'; mayday 2000</p> -->
+    <!--         <br> -->
+    <!--         <div class="links right"> -->
+    <!--           <a href="https://viewer.scuttlebot.io/%WGROLW1NrOmuSDSXo8MTX2S+owT2xu80klGvq9ZX440=.sha256"><img src="../images/hermes.png" alt="scuttlebutt" class="icon" title="Find us on Scuttlebutt"></a> -->
+    <!--           <a href="https://www.facebook.com/CaptureTheFlagLdn/"><img src="../images/facebook.png" alt="facebok" class="icon" title="Find us on Facebook"></a> -->
+    <!--         </div> -->
+    <!--         <br> -->
+    <!--         <br> -->
+    <!--         <iframe width="100%" height="315" src="https://www.youtube.com/embed/RUD8M5a-ZXY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+    <!--         <br> -->
+    <!--       </div> -->
+    <!--     </div> -->
+    <!--   </div> -->
+    <!-- </section> -->
+
+    <!-- <section> -->
+    <!--   <div class="container"> -->
+    <!--     <hr> -->
+    <!--   </div> -->
+    <!-- </section> -->
+
+    <!-- <section class="footer"> -->
+    <!--   <div class="container"> -->
+    <!--     <div class="row"> -->
+    <!--       <div class="offset-by-one-half column one-half"> -->
+    <!--         <p class="small tight">All materials are free to share Creative Commons [BY-NC-SA 3.0].</p> -->
+    <!--         <p class="small tight">Ten Thousand Things is the trading name of Ten Thousand Things Limited,  registered in England and Wales as a Limited Company: #10960794</p> -->
+    <!--       </div> -->
+    <!--     </div> -->
+    <!--   </div> -->
+    <!-- </section> -->
+
+    <!-- <section> -->
+    <!--   <div class="container"> -->
+    <!--     <hr> -->
+    <!--   </div> -->
+    <!-- </section> -->
   </body>
 </html>
