@@ -3,8 +3,48 @@ html, body {
   margin: 0;
 }
 
+h1, h2, h3, h4, h5 {
+  letter-spacing: 1rem;
+}
+
+p.spaced {
+  letter-spacing: 0.5rem;
+  font-size: 2rem;
+}
+
 .container {
   min-height: 100%;
+}
+
+.panel {
+  margin: 0;
+  padding: 7em 0 5em 0;
+}
+
+.widget {
+  margin: 2rem;
+}
+
+img.small {
+  height: 100px;
+  width: 100px;
+}
+
+img.medium {
+  height: 200px;
+  width: 200px;
+}
+
+.one.panel {
+  max-height: 100vh;
+}
+
+.half-one.panel {
+  max-height: 50vh;
+}
+
+.third-one.panel {
+  max-height: 33vh;
 }
 
 .left {
@@ -17,6 +57,33 @@ html, body {
 
 .center {
   text-align: center;
+}
+
+.horizontal-centered {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.near-top {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
+
+.near-bottom {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translate(-50%, 20%);
 }
 
 a {
@@ -71,44 +138,5 @@ p.tight {
   section.projects > .container > .row {
     margin-bottom: 10px;
   }
-}
-
-#banner {
-  margin: 0;
-  background: #272727;
-  height: 100vh;
-}
-
-rect {
-  fill: none;
-  pointer-events: all;
-}
-
-circle {
-  fill: none;
-  stroke-width: 2.5px;
-}
-
-.svg-container {
-  display: inline-block;
-  position: relative;
-  width: 100%;
-  height: inherit;
-  vertical-align: top;
-  overflow: hidden;
-}
-
-.svg-content-responsive {
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.svg-child-element {
-  width: 4000px;
-  height: 100%;
 }
 
