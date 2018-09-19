@@ -5,6 +5,7 @@ html, body {
 
 h1, h2, h3, h4, h5 {
   letter-spacing: 1rem;
+  word-wrap: break-word;
 }
 
 p.spaced {
@@ -12,16 +13,59 @@ p.spaced {
   font-size: 2rem;
 }
 
+a.unstyled {
+  text-decoration: none;
+  color: inherit;
+}
+
+a.unstyled:hover {
+  color: #202060;
+}
+
 .container {
   min-height: 100%;
 }
 
 .inner {
-  padding: 5em 0 3em 0;;
+  padding: 5em 0 3em 0;
+}
+
+@media (max-width: 550px) {
+  .inner.sunshine {
+    padding: 10em 0 2em 0;
+  }
+}
+
+.nugget {
+  padding: 3rem 3rem 1rem 3rem;
+  min-height: 275px;
+  margin: 2rem 0 2rem 0;
+}
+
+.light-transparent-bg {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.dark-transparent-bg {
+  background: rgba(255, 255, 255, 0.2);
 }
 
 .widget {
   margin: 2rem;
+}
+
+.relative {
+  position: relative;
+}
+
+.inline {
+  display: inline;
+}
+
+.top-right-corner {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 img.small {
