@@ -21,3 +21,39 @@
 .purple-bg {
   background: #202060;
 }
+
+.black-bg a {
+  color: #A9A9A9;
+}
+
+.black-bg a:hover {
+  color: white;
+}
+
+.black-bg a:before {
+  background-color: white;
+}
+
+.purple-bg a {
+  color: #A9A9A9;
+}
+
+.purple-bg a:hover {
+  color: white;
+}
+
+.purple-bg a:before {
+  background-color: white;
+}
+
+.white-bg a {
+  color: #A9A9A9;
+}
+
+.white-bg a:hover {
+  color: #202060;
+}
+
+.white-bg a:before {
+  background-color: #202060;
+}
