@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/kyphae
+--------------------------------------------------------------------
+
+I hereby claim:
+
+* I am an admin of https://tenthousandthings.org.uk
+* I am kyphae (https://keybase.io/kyphae) on keybase.
+* I have a public key ASD6H2cXr85JML0HUp7HGBkN7BujR7LTq5Epvsq3vDgd2go
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120d33d84093400cfb4215bc4732df42df957462e63adebd5a1185fc243fd7c458b0a",
+      "host": "keybase.io",
+      "kid": "0120fa1f6717afce4930bd07529ec718190dec1ba347b2d3ab9129becab7bc381dda0a",
+      "uid": "8f18eaf343da1974709d5c5803b43c19",
+      "username": "kyphae"
+    },
+    "merkle_root": {
+      "ctime": 1537482084,
+      "hash": "853bd7b99e84ad1b599bab854c393b0ff2480562265bb5bef60c1a1175e33f1a81dcee3a064075a886c984b62f9908b3cf5285d0a7bcecb91d8eabaa5a889716",
+      "hash_meta": "d556fba2209fb21a190a91985daab19b321c23e984afb12b65dc5212b44bdc4d",
+      "seqno": 3639959
+    },
+    "service": {
+      "entropy": "2hy+DTtMHGcTb6m163Ni5qoA",
+      "hostname": "tenthousandthings.org.uk",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.7.0"
+  },
+  "ctime": 1537482091,
+  "expire_in": 504576000,
+  "prev": "a81926347a0a6baa54a3deec7c5d211c17f0682419055da5854238e55a117857",
+  "seqno": 59,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg+h9nF6/OSTC9B1KexxgZDewbo0ey06uRKb7Kt7w4HdoKp3BheWxvYWTESpcCO8QgqBkmNHoKa6pUo97sfF0hHBfwaCQZBV2lhUI45VoReFfEIHwyldn866Q6OmS692jV4E/JovX970IHSjoWRhi+9q6kAgHCo3NpZ8RANRU3ayC57JEwAtJec0yKN/XhYAf7rzEk78UAIXyDJQ3Y97Ks+qf2KNetgP1ILghkxjpIXB8wF/j5KD83fwnlBKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGazxhV8HJ4dq9hucfdcep/sfK7PdTualbiUvFPdnjhXo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kyphae
+
+==================================================================
